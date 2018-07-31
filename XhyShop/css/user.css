@@ -1,0 +1,182 @@
+.mainTop {
+    width: 1060px;
+    height: 128px;
+   background: #2c2619;
+    float: right;
+    margin-top: 30px;
+}
+/*头像*/
+.mainTop>img {
+    display: block;
+    float: left;
+    width: 96px;
+    height: 96px;
+    margin: 16px;
+    border: 1px solid #000;
+    border-radius: 50%;
+}
+/*人物信息*/
+.mainTop .userName {
+    float: left;
+    overflow: hidden;
+    margin-left: 5px;
+}
+.mainTop .userName>span{
+    display: block;
+    font-size: 14px;
+    color: #fff;
+    margin: 40px 0 20px ;
+
+}
+.mainTop .userName p {
+    font: 12px/14px "Microsoft yahei";
+    height: 14px;
+    color: #fff;
+}
+.mainTop .userName p>span {
+    display: inline-block;
+    width: 32px;
+    height: 8px;
+    background: #fff;
+    margin-right: 2px;
+}
+.mainTop .userName p>span.on{
+    background: #e5121d;
+}
+.mainTop .userName p>i {
+    margin-left: 5px;
+    margin-right: 10px;
+}
+.mainTop .userName p>a {
+    color: #e5121d;
+}
+/*账户信息*/
+.mainTop .userGold {
+    float: left;
+    overflow: hidden;
+    margin: 28px 110px 0 115px;
+}
+.mainTop .userGold p {
+    font: 12px/24px "Microsoft yahei";
+    color: #fff;
+}
+.mainTop .userGold .goldp {
+    margin-left: 12px;
+}
+/*购物信息*/
+.mainTop>ul {
+    float: left;
+    width: 260px;
+    overflow: hidden;
+    margin-top: 28px;
+}
+.mainTop>ul li {
+    float: left;
+    margin-right: 30px;
+}
+.mainTop>ul li a {
+    display: block;
+    width: 100px;
+    height: 35px;
+    line-height: 35px;
+    color: #fff;
+    font-size: 12px;
+}
+.mainTop>ul li a>span {
+    margin-left: 8px;
+}
+.mainTop>ul li a>img {
+    vertical-align: middle;
+    margin-right: 15px;
+}
+/*下方物品详情*/
+.userGoods {
+    width: 1060px;
+    overflow: hidden;
+    float: right;
+    margin-top: 24px;
+}
+/*标头*/
+.userGoods h5 {
+    font-size: 14px;
+    line-height: 14px;
+    color: #333;
+    border-bottom: 1px solid #a3a3a3;
+}
+.userGoods>p {
+    font-size: 12px;
+    line-height: 38px;
+    margin-bottom: 5px;
+}
+/*商品项目分类*/
+.userGoods>p>i {
+    margin-left: 145px;
+    margin-right: 275px;
+}
+.userGoods>p>b {
+    margin-left: 158px;
+    margin-right: 188px;
+}
+/*商品*/
+.userGoods>ul {
+    padding-left: 48px;
+    padding-bottom: 15px;
+    overflow: hidden;
+    border-bottom: 1px solid #a3a3a3;
+}
+.userGoods>ul li {
+    overflow: hidden;
+    margin-top:  30px;
+}
+.userGoods>ul li:first-child {
+    margin-top: 0px;
+}
+.userGoods>ul li>a {
+    display: block;
+    overflow: hidden;
+}
+.userGoods>ul li a>em {
+    display: block;
+    width: 95px;
+    height: 62px;
+    float: left;
+}
+.userGoods>ul li a>em>img {
+    width: 100%;
+}
+.userGoods>ul li a>p {
+    float: left;
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 22px;
+    width: 206px;
+    color: #333;
+}
+.userGoods>ul li a>i {
+    display: block;
+    width: 184px;
+    overflow: hidden;
+    float: left;
+    margin-left: 94px;
+    font-size: 12px;
+    line-height: 62px;
+    color: #333;
+}
+.userGoods>ul li a>b {
+    display: block;
+    width: 210px;
+    float: left;
+    overflow: hidden;
+    line-height: 62px;
+    font-size: 12px;
+    color: #333;
+}
+.userGoods>ul li a>span {
+    display: block;
+    float: left;
+    overflow: hidden;
+    line-height: 62px;
+    font-size: 12px;
+    color: #e5121d;
+}
+

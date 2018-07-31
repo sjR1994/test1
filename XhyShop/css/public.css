@@ -1,0 +1,473 @@
+/*初始化*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,input,button,textarea,p,th,td,img,a {
+    margin:0;
+    padding:0;
+    font-weight:normal;
+    outline: none;
+    font-family: "Microsoft yahei";
+    color: #666;
+}
+input,textarea{
+    padding-left: 8px;
+    border: 1px solid #cdcdcd;
+}
+button {
+    cursor: pointer;
+    border: none;
+    background: #fff;
+}
+body {
+    background:#fff;
+}
+b, em, del,i {
+    font-style:normal;
+    font-weight:normal;
+    font-family: "Microsoft yahei";
+}
+a {
+    outline: none;
+    text-decoration:none;
+}
+img {
+    border:0;
+}
+ul li {
+    list-style:none;
+}
+.clearfix:after {
+    content: " ";
+    display: block;
+    height:0;
+    line-height: 0;
+    overflow: hidden;
+    clear:both;
+}
+.clearfix {
+    zoom:1;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+
+
+/*!头部部分开始!*/
+/*头部上开始*/
+.headed {
+    width: 100%;
+    height: 30px;
+    background: #ccc;
+    font-size: 12px;
+}
+.headed .headed-top {
+    width: 1200px;
+    height: 30px;
+    margin: 0 auto;
+    position: relative;
+}
+    /*顶部左面内容*/
+.headed .headed-top .name {
+    width: auto;
+    height: 30px;
+}
+.headed .headed-top .name p {
+    line-height: 30px;
+    float: left;
+}
+.headed .headed-top .name>a {
+    float: left;
+    width: 18px;
+    height: 18px;
+    margin: 6px 10px 6px 4px;
+}
+.headed .headed-top .name span {
+    float: left;
+    line-height: 30px;
+}
+    /*顶部右面内容*/
+.headed .headed-top>ul {
+    float: right;
+    overflow: hidden;
+}
+.headed .headed-top>ul li {
+    float: left;
+}
+.headed .headed-top>ul li:first-child a{
+    margin-left: 0;
+}
+.headed .headed-top>ul li a {
+    display: block;
+    width: 70px;
+    height: 30px;
+    margin-left: 20px;
+    line-height: 30px;
+}
+.headed .headed-top>ul li a>img {
+    margin-left: 3px;
+}
+
+/*顶部我的宝贝隐藏栏*/
+.headed .headed-top>ul>li:first-child>span {
+    position: absolute;
+    top: 30px;
+    right: 157px;
+    display: none;
+    width: 130px;
+    height: 100px;
+    overflow: auto;
+    border: 1px solid #a3a3a3;
+    border-top: 0;
+    background: #fff;
+}
+.headed .headed-top>ul>li:first-child>span>b{
+    display: block;
+    width: 120px;
+    float: left;
+    border-top: 1px solid #ccc;
+    overflow: hidden;
+    margin-top: 6px;
+}
+
+.headed .headed-top>ul>li:first-child>span>b:first-child {
+    margin-top: 0;
+    border: none;
+}
+
+.headed .headed-top>ul>li:first-child>span>b>a{
+    display: block;
+    width: 120px;
+    float: left;
+    overflow: hidden;
+}
+.headed .headed-top>ul>li:first-child>span>b>a>img {
+    float: left;
+    width: 30px;
+    height: 30px;
+}
+.headed .headed-top>ul>li:first-child>span>b>a>i{
+    float: left;
+    width: 80px;
+    height: 30px;
+    font: 12px/14px "Microsoft yahei";
+    color: #eea615;
+}
+.headed .headed-top>ul>li:first-child>span>b:hover>a>i {
+    color: #f30000;
+}
+
+/*头部中开始*/
+.headed-middle {
+    width: 1200px;
+   overflow: hidden;
+    margin: 0 auto;
+    font-size: 12px;
+}
+    /*中左*/
+.headed-middle>a {
+    display: block;
+    float: left;
+    width: 110px;
+    height: 110px;
+    margin-top: 15px;
+    margin-left: 45px;
+}
+    /*中间*/
+.headed-middle .search {
+    margin-top: 40px;
+    margin-left: 100px;
+    width: 600px;
+    overflow: hidden;
+    position: relative;
+}
+.headed-middle .search input {
+    padding-left: 26px;
+    width: 472px;
+    height: 36px;
+    line-height: 36px;
+    border: 2px solid #eea615;
+    color: #ccc;
+    position: relative;
+}
+.headed-middle .search button {
+    width: 98px;
+    height: 40px;
+   vertical-align: bottom;
+    background: #eea615;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 600;
+
+}
+.headed-middle .search i{
+    display: block;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    z-index: 2;
+    top: 13px;
+    left: 11px;
+}
+.headed-middle .search>ul{
+    overflow: hidden;
+}
+.headed-middle .search>ul li {
+    float: left;
+    line-height: 20px;
+    margin-left: 10px;
+}
+.headed-middle .search>ul li:hover a {
+    color: #eea615;
+}
+.headed-middle .search>ul li a {
+    display: block;
+    height: 20px;
+}
+.headed-middle .search>ul li b {
+    color: #eea615;
+}
+    /*右面*/
+.headed-middle .shopcar {
+    width: 180px;
+    height: 34px;
+    border: 1px solid #ccc;
+    margin-top: 42px;
+    line-height: 34px;
+}
+.headed-middle .shopcar a {
+    display: block;
+    width: 180px;
+    height: 34px;
+    position: relative;
+}
+.headed-middle .shopcar a img {
+    width: 13px;
+    height: 12px;
+    position: absolute;
+    top: 11px;
+    left: 52px;
+
+}
+.headed-middle .shopcar a span {
+    margin-left: 66px;
+}
+.headed-middle .shopcar a b {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url("../img/yuan.png") no-repeat;
+    position: relative;
+    line-height: 16px;
+    text-align: center;
+    color: #fff;
+    top: -5px;
+    left: -5px;
+}
+/*头部下面开始*/
+.headed-bottom {
+    width: 100%;
+    height: 30px;
+    border-bottom: 1px solid #eea615;
+}
+.headed-bottom .nav {
+    width: 1200px;
+    height: 30px;
+    margin: 0 auto;
+    font-size: 16px;
+    position: relative;
+}
+    /*左边*/
+.headed-bottom .nav .nav-main {
+    width: 200px;
+    height: 30px;
+    background: #eea615;
+    float: left;
+    text-align: center;
+}
+.headed-bottom .nav .nav-main>p {
+    line-height: 30px;
+    cursor: pointer;
+    color: #fff;
+}
+.headed-bottom .nav .nav-main>p img {
+    position: relative;
+    top: 1px;
+    width: 20px;
+    height: 14px;
+}
+    /*左边隐藏部分*/
+.headed-bottom .nav .nav-main>ul {
+    width: 200px;
+    height: 600px;
+    background: #302920;
+    position: absolute;
+    display: none;
+    top: 31px;
+    z-index: 2;
+    font-size: 12px;
+    color: #fff;
+    text-align: left;
+}
+.headed-bottom .nav .nav-main a {
+    color: #fff;
+}
+.headed-bottom .nav .nav-main>ul>li {
+    width: 200px;
+    height: 99px;
+    overflow: hidden;
+    border-bottom: 1px solid #59544d;
+    line-height: 24px;
+    position: relative;
+}
+.headed-bottom .nav .nav-main>ul>li h3{
+    margin-top: 15px;
+    text-indent: 15px;
+}
+.headed-bottom .nav .nav-main>ul>li h3>a {
+    font-size: 14px;
+    font-weight: 600;
+}
+.headed-bottom .nav .nav-main .more>ul {
+    margin-left: 15px;
+    width: 165px;
+    overflow: hidden;
+}
+.headed-bottom .nav .nav-main .more>ul>li {
+   float: left;
+    margin-left:10px;
+}
+.headed-bottom .nav .nav-main .more>ul>li:first-child,.headed-bottom .nav .nav-main .more>ul>li:nth-child(4){
+    margin-left:0;
+}
+.headed-bottom .nav .nav-main>ul>li>a {
+    position: absolute;
+    display: block;
+    width: 15px;
+    height: 15px;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    top: 44px;
+    right: 2px;
+}
+.headed-bottom .nav .nav-main:hover ul{
+    display: block;
+}
+    /*右边*/
+.headed-bottom .nav>ul {
+    float: left;
+    margin-left: 30px;
+}
+.headed-bottom .nav>ul li {
+    float: left;
+}
+
+.headed-bottom .nav>ul li a {
+    display: block;
+    width: 124px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+.headed-bottom .nav>ul li a.on{
+    background: #eea615;
+    color: #fff;
+}
+.headed-bottom .nav>ul li a:hover {
+    background: #eea615;
+    color: #fff;
+}
+/*!头部部分结束!*/
+
+
+
+
+/*!底部部分开始!*/
+    /*底部上*/
+.footed-top {
+    width: 100%;
+    height: 80px;
+    font-size: 18px;
+    background: #eea615;
+    margin-top: 40px;
+}
+.footed-top ul {
+    width: 1200px;
+    height: 80px;
+    margin: 0 auto;
+}
+.footed-top ul li:first-child {
+    margin-left: 158px;
+}
+.footed-top ul li {
+    float: left;
+    margin-left: 88px;
+    line-height: 80px;
+    color: #fff;
+}
+
+.footed-top ul li img {
+    position: relative;
+    top: 10px;
+}
+    /*底部中*/
+    /*底部中导航*/
+.footed-middle {
+    width: 1200px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.footed-middle dl {
+    margin: 38px 0;
+    float: left;
+}
+.footed-middle dl dt {
+    font-size: 14px;
+    margin-right: 75px;
+    color: #333;
+    margin-bottom: 10px;
+}
+.footed-middle dl dd {
+    font-size: 12px;
+    line-height: 22px;
+    color: #333;
+}
+.footed-middle dl dd a {
+    color: #333;
+}
+    /*底部中二维码*/
+.footed-middle ul {
+    float: right;
+    width: 332px;
+    margin-top: 40px;
+    overflow: hidden;
+}
+.footed-middle ul li {
+    float: left;
+    width: 90px;
+    text-align: center;
+    margin-left: 30px;
+    font-size: 12px;
+    color: #333;
+}
+.footed-middle ul li:first-child {
+    margin-left: 0px;
+}
+    /*底部下部分*/
+.footed-bottom {
+    width: 100%;
+    height: 30px;
+    background: #ccc;
+}
+.footed-bottom p{
+    width: 1200px;
+    height: 30px;
+    margin: 0 auto;
+    text-align: center;
+    font: 12px/30px "Microsoft yahei";
+    color: #333;
+}
+/*!底部部分结束!*/
+
+

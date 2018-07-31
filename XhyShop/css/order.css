@@ -1,0 +1,188 @@
+/*订单标头*/
+.title {
+    width: 1060px;
+    height: 50px;
+    background: #2c2619;
+    float: right;
+    margin-top: 30px;
+}
+.title ul {
+    overflow: hidden;
+    padding-left: 20px;
+}
+.title ul li {
+    float: left;
+    margin-right: 145px;
+}
+.title ul li a {
+    display: block;
+    width: 100px;
+    height: 50px;
+    font-size: 12px;
+    line-height: 50px;
+    color: #fff;
+}
+.title ul li a>img {
+    margin-right:15px ;
+    vertical-align: middle;
+}
+.orderMain {
+    width: 1060px;
+    overflow: hidden;
+    float: right;
+    margin-top: 24px;
+}
+/*标头*/
+.orderMain h5 {
+    font-size: 14px;
+    line-height: 14px;
+    color: #333;
+    border-bottom: 1px solid #a3a3a3;
+}
+.orderMain>p {
+    font-size: 12px;
+    line-height: 38px;
+    margin-bottom: 5px;
+}
+/*商品项目分类*/
+.orderMain>p>i {
+    margin-left: 95px;
+    margin-right: 275px;
+}
+.orderMain>p>b {
+    margin-left: 158px;
+    margin-right: 188px;
+}
+.orderMain>p>span {
+    margin-left: 190px;
+}
+/*商品*/
+.orderMain>ul {
+    padding-bottom: 15px;
+    overflow: hidden;
+    border-bottom: 1px solid #a3a3a3;
+}
+.orderMain>ul li {
+    overflow: hidden;
+    margin-top:  30px;
+}
+.orderMain>ul li:first-child {
+    margin-top: 0px;
+}
+.orderMain>ul li>a {
+    display: block;
+    overflow: hidden;
+    float: left;
+}
+.orderMain>ul li a>img {
+    width: 95px;
+    height: 62px;
+    float: left;
+}
+.orderMain>ul li a>p {
+    float: left;
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 22px;
+    width: 206px;
+    color: #333;
+}
+.orderMain>ul li>i {
+    display: block;
+    width: 184px;
+    overflow: hidden;
+    float: left;
+    margin-left: 94px;
+    font-size: 12px;
+    line-height: 62px;
+    color: #333;
+}
+.orderMain>ul li>b {
+    display: block;
+    width: 210px;
+    float: left;
+    overflow: hidden;
+    line-height: 62px;
+    font-size: 12px;
+    color: #333;
+}
+.orderMain>ul li>em {
+    display: block;
+    float: left;
+    overflow: hidden;
+    line-height: 62px;
+    font-size: 12px;
+    color: #e5121d;
+}
+/*购买取消，按钮*/
+.orderMain>ul li>.btns {
+    width: 90px;
+    overflow: hidden;
+    float: right;
+    line-height: 0;
+    margin-bottom: 8px;
+}
+.orderMain>ul li>.btns>button {
+    width: 90px;
+    height: 30px;
+    border: 1px solid #eea615;
+    text-align: center;
+    line-height: 28px;
+    font-size: 12px;
+    color: #666;
+    margin-top: 5px;
+}
+.orderMain>ul li>.btns>button:first-child {
+    margin-top: 0;
+    background: #eea615;
+    color: #fff;
+}
+/*最下方按钮*/
+.main-btn {
+    width: 538px;
+    overflow: hidden;
+    float: right;
+    margin-right: 262px;
+    margin-top: 12px;
+}
+.main-btn>a {
+    display: block;
+    float: left;
+    border: 1px solid #cdcdcd;
+    font: 12px/22px "Microsoft yahei";
+    color: #999;
+    text-align: center;
+    padding: 0 10px;
+    margin: 0 5px;
+}
+.main-btn>ul {
+    float: left;
+    overflow: hidden;
+}
+.main-btn>ul li {
+    float: left;
+    margin: 0 5px;
+}
+.main-btn>ul li a {
+    width: 22px;
+    height: 22px;
+    display: block;
+    text-align: center;
+    border: 1px solid #cdcdcd;
+    font: 12px/22px "Microsoft yahei";
+    color: #999;
+}
+.main-btn>ul li a.on {
+    background: #eea615;
+    border-color: #eea615;
+    color: #fff;
+}
+.main-btn>ul li a:hover {
+    background: #eea615;
+    border-color: #eea615;
+    color: #fff;
+}
+.main-btn>a:hover {
+    border-color: #eea615;
+    color:#eea615;
+}

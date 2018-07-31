@@ -1,0 +1,301 @@
+/*标题内容导航条*/
+.title {
+    width: 1200px;
+    height: 80px;
+    margin: 0 auto;
+    border-bottom: 1px solid #d9d9d9;
+
+}
+.title p {
+    float: left;
+    font: 14px/80px "Microsoft yahei";
+    color: #333;
+}
+.title ul {
+    float: right;
+    overflow: hidden;
+    margin-top: 22px;
+}
+.title ul li {
+    float: left;
+    width: 170px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+    margin-left: -16px;
+}
+.title ul li a {
+    display: block;
+}
+.title ul li:first-child{
+    margin-left: 0px;
+}
+.confirmBG1 {
+    background: url("../img/confirmBG1.png") no-repeat;
+}
+.confirmBG2 {
+    background: url("../img/confirmBG21.png") no-repeat;
+}
+.confirmBG3 {
+    background: url("../img/confirmBG31.png") no-repeat;
+    color: #fff;
+}
+.confirmBG4 {
+    background: url("../img/confirmBG4.png") no-repeat;
+}
+/*支付提示*/
+.tips {
+    width: 1000px;
+    /*height: 86px;*/
+    overflow: hidden;
+    background: #1a1a1a;
+    margin: 20px auto;
+    padding: 10px 100px;
+}
+.tips p ,.tips span{
+    font: 14px/32px "Microsoft yahei";
+    color: #fefefe;
+}
+.tips p>span {
+    float: right;
+}
+.tips p>span>b {
+    color: #e5121d;
+}
+.tips>span>i{
+    color: #eea615;
+}
+.tips>span>a {
+    display: block;
+    float: right;
+    color: #fefefe;
+}
+/*支付选择*/
+.main-fa {
+    width: 1202px;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+}
+.main {
+    width: 1200px;
+    overflow: hidden;
+    margin: 0 auto;
+    border: 1px solid #999;
+}
+.main>ul {
+    width: 1000px;
+    overflow: hidden;
+    margin: 28px auto 77px;
+    border-bottom: 1px solid #999;
+}
+.main>ul li {
+    float: left;
+    margin-right: 26px;
+}
+.main>ul li>a {
+    display: block;
+    height: 32px;
+    font: 12px/32px "Microsoft yahei";
+    padding: 0 12px;
+    color: #333;
+}
+.main>ul li .on {
+    background: #eea615;
+    color: #fff;
+}
+.main>ul li>a:hover {
+    background: #eea615;
+    color: #fff;
+}
+.main>ul li>a>img {
+    vertical-align: text-top;
+}
+/*支付银行*/
+.pay {
+    width: 1000px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.pay ul {
+    width: 1093px;
+    overflow: hidden;
+}
+.pay ul li {
+    float: left;
+    width: 180px;
+    height: 56px;
+    margin-right: 93px;
+    margin-bottom: 42px;
+    cursor: pointer;
+    background: url("../img/payborder.png") no-repeat;
+}
+.pay .payOn {
+    background-image: url("../img/payborderon.png");
+}
+
+/*支付密码项*/
+.save{
+    width: 1080px;
+    overflow: hidden;
+    margin: 34px auto 20px;
+    padding-left: 120px;
+}
+.save>p {
+    height: 16px;
+    line-height: 16px;
+    font-size: 12px;
+    color: #333;
+    text-indent: 6px;
+    margin-bottom: 18px ;
+}
+.save>p>img {
+    line-height: 16px;
+    display: block;
+    float: left;
+    vertical-align: middle;
+}
+.save>span {
+    display: block;
+    font-size: 12px;
+    color: #333;
+    margin-bottom: 10px;
+}
+.save>input {
+    display: block;
+    float: left;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #333;
+    margin-left: -1px;
+    padding: 0;
+    text-align: center;
+}
+.save>a {
+    display: block;
+    font: 12px/22px "Microsoft yahei";
+    color: #333;
+    margin-left: 10px;
+}
+.save>i {
+    display: block;
+    font: 12px/22px "Microsoft yahei";
+    color: #333;
+    margin-bottom: 14px;
+}
+.save>button {
+    display: block;
+    width: 90px;
+    height: 30px;
+    background: #eea615;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+}
+.main-fa .paybk{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(56,56,56,0.9);
+    display: none;
+}
+/*失败*/
+.main-fa .paybk .cry {
+    width: 200px;
+    overflow: hidden;
+    margin: 147px auto 0 ;
+}
+.main-fa .paybk .cry>img {
+    width: 68px;
+    height: 68px;
+    margin-left: 60px;
+}
+.main-fa .paybk .cry>p {
+    font: 24px/55px "Microsoft yahei";
+    color: #fff;
+    text-align: center;
+}
+.main-fa .paybk .cry>span {
+    display: block;
+    font: 14px/14px "Microsoft yahei";
+    color: #fff;
+    text-align: center;
+}
+.main-fa .paybk .cry>span>i {
+    color: #e5121d;
+}
+.main-fa .paybk .cry>a.look {
+    display: block;
+    width: 110px;
+    height: 32px;
+    color: #fff;
+    background: #eea615;
+    font: 18px/32px "Microsoft yahei";
+    text-align: center;
+    margin: 30px auto 10px;
+}
+.main-fa .paybk .cry>a {
+    display: block;
+    font: 12px/12px "Microsoft yahei";
+    color: #fff;
+    text-align: center;
+}
+/*成功*/
+.main-fa .paybk .happy {
+    width: 310px;
+    margin: 150px auto 0;
+}
+.main-fa .paybk .happy>img {
+    width: 60px;
+    height: 60px;
+    margin-left: 118px;
+}
+.main-fa .paybk .happy>p {
+    font: 24px/24px "Microsoft yahei";
+    color: #fff;
+    text-align: center;
+    margin: 22px 0 12px;
+}
+.main-fa .paybk .happy>span {
+    display: block;
+    width: 100%;
+    height: 20px;
+    font: 14px/20px "Microsoft yahei";
+    color: #fff;
+    text-align: center;
+    margin-bottom: 18px;
+}
+.main-fa .paybk .happy>span>i {
+    color: #e5121d;
+}
+.main-fa .paybk .happy>span>b {
+    display: inline-block;
+    color: #999;
+    margin: 0 14px;
+    position: relative;
+    top: -1px;
+}
+.main-fa .paybk .happy>b{
+    display: block;
+    font: 12px/12px "Microsoft yahei";
+    color: #fff;
+    text-align: center;
+}
+.main-fa .paybk .happy>a.look{
+    display: block;
+    width: 110px;
+    height: 32px;
+    color: #fff;
+    background: #eea615;
+    font: 18px/32px "Microsoft yahei";
+    text-align: center;
+    margin: 30px auto 10px;
+}
+.main-fa .paybk .happy>a{
+    display: block;
+    text-align: center;
+    color:#fff;
+    font: 12px/12px "Microsoft yahei";
+}

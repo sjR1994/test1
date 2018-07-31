@@ -1,0 +1,51 @@
+/*副页导航*/
+.main {
+    width: 1200px;
+    overflow: hidden;
+    margin: 40px auto 0;
+}
+.main .mainNav {
+    width: 108px;
+    overflow: hidden;
+    float: left;
+}
+.main .mainNav p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+.main .mainNav ul {
+    width: 98px;
+    float: right;
+    margin-top: 12px;
+    overflow: hidden;
+}
+.main .mainNav ul li {
+    padding: 5px 0;
+}
+.main .mainNav ul li:nth-child(6){
+    border-bottom: 1px solid #999;
+}
+.main .mainNav ul li:nth-child(7){
+    margin-top: 3px;
+}
+.main .mainNav ul li:nth-child(9){
+    border-top: 1px solid #999;
+}
+.main .mainNav ul li:nth-child(8){
+    margin-bottom: 3px;
+}
+
+.main .mainNav ul li a{
+    display: block;
+    font: 14px/14px "Microsoft yahei";
+    padding-left: 10px;
+    color: #333;
+}
+.main .mainNav ul li a:hover {
+    color: #eea615;
+
+}
+.main .mainNav ul li .on {
+    color: #eea615;
+}

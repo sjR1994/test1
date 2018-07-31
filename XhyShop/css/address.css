@@ -1,0 +1,140 @@
+.adds {
+    width: 1060px;
+    overflow: hidden;
+    float: right;
+    margin-top: 14px;
+}
+.adds h5 {
+    font-size: 14px;
+    line-height: 14px;
+    color: #333;
+    width: 1060px;
+    border-bottom: 1px solid #a3a3a3;
+}
+.adds h5>a {
+    float: right;
+    font-size: 12px;
+    color: #333;
+}
+.adds>p {
+    overflow: hidden;
+    margin: 24px 0  7px 30px;
+    font-size: 14px;
+    color: #333;
+}
+.adds>p>b {
+    display: inline-block;
+    margin-left: 130px;
+    margin-right: 176px;
+}
+.adds>p>span {
+    margin-left: 168px;
+    margin-right: 244px;
+}
+.adds>ul {
+    margin-left: 30px;
+    overflow: hidden;
+}
+.adds>ul li {
+    overflow: hidden;
+    height: 46px;
+    font: 12px/46px "Microsoft yahei";
+}
+.adds>ul li>em {
+    display: inline-block;
+    width: 70px;
+    text-align: center;
+    margin-right: 116px;
+}
+.adds>ul li>b {
+    width: 80px;
+    display: inline-block;
+    text-align: center;
+}
+.adds>ul li>i {
+    display: inline-block;
+    width: 244px;
+    text-align: center;
+    margin-left: 70px;
+    margin-right: 60px;
+}
+.adds>ul li>span {
+    display: inline-block;
+    width: 126px;
+    margin-left: 178px;
+}
+.adds>ul li>span>a {
+    font-size: 12px;
+    color: #333;
+}
+.adds>ul li>span>button {
+    width: 60px;
+    height: 24px;
+    background: #666;
+    color: #fff;
+    margin-left: 2px;
+    text-align: center;
+    line-height: 24px;
+}
+.adds .addsON {
+    background: #eea615;
+}
+/*最下方按钮*/
+.main-btn {
+    width: 538px;
+    overflow: hidden;
+    float: right;
+    margin-right: 262px;
+    margin-top: 17px;
+}
+.main-btn>a {
+    display: block;
+    float: left;
+    border: 1px solid #cdcdcd;
+    font: 12px/22px "Microsoft yahei";
+    color: #999;
+    text-align: center;
+    padding: 0 10px;
+    margin: 0 5px;
+}
+.main-btn>ul {
+    float: left;
+    overflow: hidden;
+}
+.main-btn>ul li {
+    float: left;
+    margin: 0 5px;
+}
+.main-btn>ul li a {
+    width: 22px;
+    height: 22px;
+    display: block;
+    text-align: center;
+    border: 1px solid #cdcdcd;
+    font: 12px/22px "Microsoft yahei";
+    color: #999;
+}
+.main-btn>ul li a.on {
+    background: #eea615;
+    border-color: #eea615;
+    color: #fff;
+}
+.main-btn>ul li a:hover {
+    background: #eea615;
+    border-color: #eea615;
+    color: #fff;
+}
+.main-btn>a:hover {
+    border-color: #eea615;
+    color:#eea615;
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,239 @@
+.cart-title {
+    margin: 0 auto;
+    width: 1200px;
+    overflow: hidden;
+}
+/*中间内容的标头*/
+.cart-title p {
+    font: 18px/57px "Microsoft yahei";
+    color: #333;
+    border-bottom: 1px solid #c2c2c2;
+
+}
+.cart-title p>b {
+    margin-left: 12px;
+}
+.cart-title p>b>span {
+    position: relative;
+    top: 1px;
+    left: 8px;
+}
+/*项目分类*/
+/*产品详情购买*/
+.item {
+    width: 1200px;
+    overflow: hidden;
+}
+.item ul , .cart-title .cart-main ul{
+    width: 1170px;
+    padding-left: 30px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+.item ul li>label{
+    cursor: pointer;
+}
+.item ul li>label>p{
+    width: 10px;
+    height: 10px;
+    border: 1px solid #939393;
+    float: left;
+    margin-right: 5px;
+    font-size: 10px;
+    line-height: 10px;
+    text-align: center;
+    font-weight: 600;
+    position: relative;
+    top: 1px;
+    cursor: pointer;
+}
+
+.item ul li>label>input[type='checkbox'],.close>ul li>label input[type=checkbox]{
+    display: none;
+}
+.item ul li{
+    width: 110px;
+    float: left;
+    font: 12px/14px  "Microsoft yahei";
+    height: 16px;
+    margin-left: 92px;
+    color: #333;
+}
+.item ul li:first-child{
+    margin-left: 0;
+}
+.item ul .spe {
+    margin-left: 0;
+    width: 205px;
+}
+/*下方详情物品*/
+.cart-title .cart-main ul li {
+    width: 100%;
+    color: #333;
+    height: 80px;
+    position: relative;
+    margin-top: 20px;
+}
+.cart-title .cart-main ul li:first-child {
+    margin-top: 0;
+}
+.cart-title .cart-main ul li>label{
+    display: block;
+    float: left;
+}
+.cart-title .cart-main ul li>label>p {
+    float: left;
+    width: 10px;
+    height: 10px;
+    line-height: 10px;
+    text-align: center;
+    font-size: 8px;
+    font-weight: 600;
+    border: 1px solid #939393;
+    cursor: pointer;
+}
+.cart-title .cart-main ul li>label>input[type='checkbox']{
+    float: left;
+    display: none;
+
+}
+.cart-title .cart-main ul li>a.putUrl {
+    display: block;
+    overflow: hidden;
+    float: left;
+    margin-right: 92px;
+}
+.cart-title .cart-main ul li>a.putUrl>img {
+    width: 95px;
+    height: 62px;
+    display: block;
+    float: left;
+    cursor: pointer;
+}
+.cart-title .cart-main ul li>a.putUrl>span {
+    display: block;
+    float: left;
+    width: 205px;
+    height: 55px;
+    overflow: hidden;
+    font-size: 12px;
+    line-height: 18px;
+    color: #333;
+    cursor: pointer;
+}
+.cart-title .cart-main ul li>i{
+    display: block;
+    width: 202px;
+    float: left;
+    font-size: 12px;
+    line-height: 18px;
+    color: #333;
+}
+.cart-title .cart-main ul li>button {
+    float: left;
+    width: 20px;
+    height: 20px;
+    line-height: 18px;
+    border: 1px solid #333;
+}
+.cart-title .cart-main ul li>input[type='text'] {
+    display: block;
+    float: left;
+    width: 50px;
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+    padding: 0;
+    border: 1px solid #333;
+    border-left: 0;
+    border-right: 0;
+}
+.cart-title .cart-main ul li>b {
+    position: absolute;
+    font-size: 12px;
+    color: #666;
+    top: 28px;
+    left: 622px;
+}
+.cart-title .cart-main ul li>em{
+    float: left;
+    color: #e5121d;
+    font: 12px/18px "Microsoft yahei";
+    margin-left: 112px;
+    width: 205px;
+}
+.cart-title .cart-main ul li>.aDelete {
+    display: block;
+    float: left;
+    font: 12px/18px "Microsoft yahei";
+    color: #333;
+}
+.cart-title .cart-main ul li>.aStar {
+    display: block;
+    font: 12px/18px "Microsoft yahei";
+    color: #333;
+    position: absolute;
+    right: 85px;
+    top: 20px;
+}
+/*结算系列*/
+.cart-title .close {
+    width: 1200px;
+    overflow: hidden;
+    border: 1px solid #eea615;
+}
+.cart-title .close ul {
+    padding-left: 30px;
+    float: left;
+    overflow: hidden;
+}
+.cart-title .close ul li>label{
+    cursor: pointer;
+}
+.cart-title .close ul li>label>p{
+    width: 10px;
+    height: 10px;
+    border: 1px solid #939393;
+    float: left;
+    font-size: 10px;
+    line-height: 10px;
+    text-align: center;
+    font-weight: 600;
+    margin-right: 5px;
+    position: relative;
+    top: 19px;
+    cursor: pointer;
+}
+.cart-title .close ul li {
+    float: left;
+    width: 105px;
+    height: 50px;
+    font: 12px/50px "Microsoft yahei";
+    color: #333;
+}
+.cart-title .close ul li>a {
+    font: 12px/50px "Microsoft yahei";
+    color: #333;
+}
+.cart-title .close ul .spes01 {
+    margin: 0 244px 0 48px;
+}
+.cart-title .close ul .spes02 {
+    width: 150px;
+    margin-left: 62px;
+}
+.cart-title .close ul .spes02>b {
+    font-size: 18px;
+}
+.cart-title .close ul li>i,.cart-title .close ul li>b {
+    color: #e5121d;
+}
+.cart-title .close>button {
+    width: 80px;
+    height: 50px;
+    background: #eea615;
+    color: #fff;
+    line-height: 50px;
+    text-align: center;
+    float: right;
+}

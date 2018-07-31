@@ -1,0 +1,175 @@
+.comment {
+    width: 1200px;
+    overflow: hidden;
+    margin: 40px auto 0 ;
+    border-bottom: 1px solid #a3a3a3;
+}
+.comment h5 {
+    font-size: 14px;
+    color: #333;
+    border-bottom: 1px solid #a3a3a3;
+}
+/*评价区下方左边商品图片*/
+.comment .comLeft {
+    width: 162px;
+    overflow: hidden;
+    float: left;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+.comment .comLeft p {
+    font: 12px/36px "Microsoft yahei";
+    text-align: center;
+}
+.comment .comLeft a {
+    display: block;
+    
+}
+.comment .comLeft a>img {
+    width: 160px;
+    height: 160px;
+    border: 1px solid #ccc;
+}
+.comment .comLeft a>span {
+    display: block;
+    width: 144px;
+    margin: 0 auto;
+    color: #333;
+    font-size: 12px;
+    text-align: center;
+}
+/*评价区下方中间的商品评分*/
+.comment .comCenter {
+    width: 480px;
+    overflow: hidden;
+    float: left;
+    margin-left: 72px;
+    margin-top: 44px;
+}
+.comment .comCenter>ul {
+    width: 100%;
+    overflow: hidden;
+}
+.comment .comCenter>ul li{
+    width: 64px;
+    height: 32px;
+    float: left;
+    margin-left:140px;
+    cursor: pointer;
+}
+.comment .comCenter>ul li:first-child {
+    margin-left: 0;
+}
+.comment .comCenter>ul li>span {
+    display: block;
+    float: left;
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+    font-size: 14px;
+    color: #ff0000;
+    margin-top: 6px;
+    border: 1px solid #000;
+    border-radius: 50%;
+}
+.comment .comCenter>ul li>i {
+    display: block;
+    float: right;
+    font-size: 32px;
+    line-height: 32px;
+    color: #000;
+}
+.comment .comCenter .star {
+    width: 222px;
+    float: left;
+    overflow: hidden;
+    margin-top: 32px;
+    color: #666;
+}
+.comment .comCenter .star>span {
+    display: block;
+    font: 12px/12px "Microsoft yahei";
+    margin-bottom: 12px;
+}
+.comment .comCenter .star p {
+    font: 12px/22px "Microsoft yahei";
+    color: #333;
+    margin-bottom: 6px;
+}
+.comment .comCenter .star p>i {
+    display: inline-block;
+    color: #e5121d;
+    width: 22px;
+    height: 22px;
+    text-align: center;
+    cursor: pointer;
+    vertical-align: bottom;
+    margin-right: 5px;
+}
+.comment .comCenter .star p>i>img {
+    width: 100%;
+    height: 100%;
+}
+.comment .comCenter .filePic {
+    float: right;
+    margin-top: 62px;
+    margin-left: 10px;
+}
+.comment .comCenter .filePic p {
+    float: left;
+    font: 12px/62px "Microsoft yahei";
+    height: 62px;
+}
+.comment .comCenter .filePic>span {
+    display: block;
+    float: left;
+    width: 68px;
+    height: 60px;
+    border: 1px solid #9a9a9a;
+    margin-left: 20px;
+}
+.comment .comCenter .filePic>label{
+    display: block;
+    float: left;
+    width: 68px;
+    height: 60px;
+    border: 1px solid #9a9a9a;
+    margin-left: 20px;
+}
+.comment .comCenter .filePic>label>input[type=file]{
+    display: none;
+}
+.comment .comCenter .filePic>span>img ,.comment .comCenter .filePic>label>img{
+    width: 100%;
+}
+/*评价区下方右边商品评价*/
+.comment .comRight {
+    width: 402px;
+    overflow: hidden;
+    float: right;
+    margin-top: 44px;
+}
+.comment .comRight  p {
+    font-size: 12px;
+    line-height: 12px;
+    color: #333;
+    margin-bottom: 8px;
+}
+.comment .comRight textarea {
+    width: 384px;
+    height: 127px;
+    border-color: #333;
+    padding-right: 8px;
+    resize: none;
+}
+.comment .comRight button {
+    display: block;
+    width: 90px;
+    height: 30px;
+    background: #eea615;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    margin: 12px auto 0;
+}

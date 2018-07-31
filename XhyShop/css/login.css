@@ -1,0 +1,183 @@
+/*顶部部分开始*/
+.top {
+    width: 100%;
+    overflow: hidden;
+    border-bottom: 2px solid #eea615;
+}
+.top .logo {
+    width: 1200px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.top .logo>a {
+    display: block;
+    width: 200px;
+    height: 140px;
+}
+/*顶部部分结束*/
+
+
+
+/*中间登录部分开始*/
+/*左边图片*/
+.middle {
+    width: 100%;
+    overflow: hidden;
+    background: #f0e2fc;
+}
+.middle .middle-w{
+    width: 1200px;
+    margin: 0 auto 90px;
+    overflow: hidden;
+}
+.middle .middle-w>img {
+    display: block;
+    float: left;
+    width: 662px;
+    height: 332px;
+    padding: 148px 0;
+}
+/*右边表单*/
+.middle .middle-form {
+    width: 480px;
+    height: 460px;
+    float: left;
+    margin: 85px 0;
+    border: 1px solid #cdcdcd;
+}
+.middle .middle-form>p {
+    border-bottom: 2px solid #eea615;
+    width: 400px;
+    overflow: hidden;
+    margin: 12px auto 20px;
+    padding: 0 10px;
+    color: #333;
+    font: 18px/32px "Microsoft yahei";
+}
+.middle .middle-form>p>a {
+    float: right;
+    color: #eea615;
+    font-size: 12px;
+}
+.middle .middle-form form {
+    width: 420px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.middle .middle-form form .box label {
+    display: block;
+    width: 360px;
+    height: 50px;
+    background: #fff;
+    border: 1px solid #cdcdcd;
+    font: 12px/50px "Microsoft yahei";
+    padding-left: 18px;
+    margin: 0 auto ;
+}
+.middle .middle-form form .box label>img {
+    width: 20px;
+    height: 20px;
+    float: right;
+    margin-top: 15px;
+}
+.middle .middle-form form .box>P {
+    font: 12px/18px "Microsoft yahei";
+    height: 20px;
+    padding-left: 38px;
+}
+.middle .middle-form form .box label>span {
+    display: inline-block;
+    width: 65px;
+}
+.middle .middle-form form .box label>input {
+    width: 250px;
+    height: 50px;
+    line-height: 50px;
+    color: #999;
+    border: none;
+}
+.middle .middle-form form>label {
+    display: block;
+    width: 175px;
+    height: 50px;
+    float: left;
+    background: #fff;
+    border: 1px solid #cdcdcd;
+    font: 12px/50px "Microsoft yahei";
+    padding-left: 18px;
+    margin: 0 24px 0 20px;
+}
+
+.middle .middle-form form>label>span {
+    display: inline-block;
+    width: 65px;
+}
+.middle .middle-form form>label>input {
+    width: 80px;
+    height: 50px;
+    line-height: 50px;
+    color: #999;
+    border: none;
+}
+.middle .middle-form form>.code {
+    width: 160px;
+    height: 52px;
+    display: inline-block;
+
+}
+.middle .middle-form form>.code>img {
+    width: 118px;
+    height: 50px;
+    float: left;
+    border: 1px solid #cdcdcd;
+    cursor: pointer;
+}
+.middle .middle-form form>.code>a {
+    float: right;
+    display: block;
+    font: 12px/22px  "Microsoft yahei";
+    color: #eea615;
+    margin-top: 15px;
+}
+.middle .middle-form form>span {
+    display: block;
+    font-size: 12px;
+    width: 380px;
+    height: 20px;
+    line-height: 20px;
+    margin: 24px auto;
+}
+.middle .middle-form form>span>label {
+    cursor: pointer;
+}
+.middle .middle-form form>span>label>input {
+    display: block;
+    float: left;
+    width: 12px;
+    height: 12px;
+    margin: 4px 2px;
+    border: 1px solid #8b8b8b;
+    position: relative;
+    top: 1px;
+}
+.middle .middle-form form>span>a {
+    color: #eea615;
+    float: right;
+    margin-left: 8px;
+}
+.middle .middle-form form>span>.aa {
+    color: #333;
+}
+.middle .middle-form form>input[type='submit'] {
+    display: block;
+    margin: 0 auto;
+    width: 362px;
+    height: 40px;
+    font-size: 18px;
+    line-height: 40px;
+    color: #fff;
+    padding: 0;
+    background: url("../img/btnBG.png");
+    cursor: no-drop;
+}
+/*中间登录部分结束*/

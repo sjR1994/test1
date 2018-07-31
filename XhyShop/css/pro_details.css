@@ -1,0 +1,521 @@
+/*商品部分开始*/
+.res {
+    width: 1200px;
+    overflow: hidden;
+    margin: 40px auto 0;
+}
+/*左边*/
+.res .res-left {
+    width: 362px;
+    float: left;
+    overflow: hidden;
+}
+.res .res-left>span {
+    width: 360px;
+    display: block;
+    height: 360px;
+    border: 1px solid #cdcdcd;
+}
+.res .res-left>span>img {
+    width: 100%;
+    height: 100%;
+}
+.res .res-left .res-left-btn {
+    width: 362px;
+    overflow: hidden;
+    margin: 8px 0 106px;
+}
+.res .res-left .res-left-btn>span {
+    display: block;
+    float: right;
+    width: 22px;
+    height: 52px;
+    margin-right: 4px;
+    cursor: pointer;
+}
+.res .res-left .res-left-btn span:first-child {
+    float: left;
+    margin-right: 0px;
+    margin-left: 4px;
+}
+.res .res-left .res-left-btn>.ulBox{
+    width: 300px;
+    height: 52px;
+    float: left;
+    overflow: hidden;
+}
+.res .res-left .res-left-btn>.ulBox>ul {
+    width: 540px;
+    overflow: hidden;
+}
+.res .res-left .res-left-btn>.ulBox>ul li {
+    float: left;
+    margin: 0 4px;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #cdcdcd;
+}
+.res .res-left .res-left-btn>.ulBox>ul li>img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+/*中间*/
+.res .res-center {
+    width: 640px;
+    float: left;
+    margin: 14px 0 94px 10px;
+    overflow: hidden;
+}
+.res .res-center>h5 {
+    font: 16px/26px "Microsoft yahei";
+    color: #333;
+    padding-left: 10px;
+}
+.res .res-center>span {
+    display: block;
+    font: 12px/24px "Microsoft yahei";
+    color: #666;
+    padding-left: 10px;
+    margin-bottom: 22px;
+}
+/*中间优惠栏*/
+.res .res-center .sale {
+    width: 640px;
+    height: 100px;
+    background: #e6e6e6;
+}
+.res .res-center .sale>p{
+    padding-left: 10px;
+    font: 12px/32px "Microsoft yahei";
+    color: #999;
+}
+.res .res-center .sale p>s {
+    margin-left: 32px;
+}
+.res .res-center .sale p>b {
+    margin-left: 20px;
+    color: #e5121d;
+}
+.res .res-center .sale p>em {
+    color: #c88b10;
+    margin-left: 10px;
+}
+.res .res-center .sale p a {
+    float: right;
+    margin-right: 10px;
+    color: #999;
+}
+.res .res-center>p {
+    padding-left: 10px;
+    margin: 18px 0 10px;
+    font-size: 12px;
+    color: #999;
+}
+.res .res-center>p>span {
+    margin-left: 34px;
+}
+.res .res-center>p span a {
+    margin-right: 10px;
+    color: #999;
+}
+.res .res-center>p span select {
+    height: 16px;
+    outline: none;
+    border: none;
+    color: #999;
+}
+.res .res-center>p span select>option {
+    font-size: 12px;
+
+}
+/*规格*/
+.res .res-center .size {
+    overflow: hidden;
+}
+.res .res-center .size span {
+    float: left;
+    font-size: 12px;
+    color: #999;
+    padding-left: 10px;
+}
+.res .res-center .size ul {
+    float: left;
+    width: 550px;
+    margin-left: 34px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.res .res-center .size ul li {
+    float: left;
+}
+.res .res-center .size ul li a {
+    display: block;
+    height: 24px;
+    border: 1px solid #cdcdcd;
+    color: #333;
+    font-size: 12px;
+    padding: 0 12px;
+    margin: 0 8px 8px 0;
+    line-height: 24px;
+    text-align: center;
+}
+.res .res-center .size ul li.on a {
+    border: 1px solid #c88b10;
+}
+.res .res-center .size ul li a:hover {
+    border: 1px solid #c88b10;
+}
+/*购买数量*/
+.res .res-center .buy {
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 20px;
+}
+.res .res-center .buy p {
+    font: 12px/38px "Microsoft yahei";
+    color:#999;
+    padding-left: 10px;
+    float: left ;
+}
+.res .res-center .buy input {
+    margin-left: 10px;
+    width: 50px;
+    height: 36px;
+    border-right: 0;
+    line-height: 36px;
+    color: #333;
+}
+.res .res-center .buy b {
+    font: 12px/38px "Microsoft yahei";
+    color: #333;
+    margin-left: 28px;
+}
+.res .res-center .buy button {
+    width: 20px;
+    height: 19px;
+    border: 1px solid #cdcdcd;
+    text-align: center;
+    color: #333;
+    font-size: 12px;
+    line-height: 12px;
+    position: absolute;
+    top: 0px;
+    left: 127px;
+}
+.res .res-center .buy .btn2 {
+    border-top: none;
+    top: 19px;
+}
+.res .res-center .buy span {
+    font: 12px/38px "Microsoft yahei";
+    margin-left: 30px;
+    color: #999;
+}
+.res .res-center>button {
+    width: 92px;
+    height: 32px;
+    color: #c88b10;
+    line-height: 26px;
+    border: 1px solid #c88b10;
+}
+.res .res-center>button:hover {
+    background: #c88b10;
+    color: #fff;
+}
+.res .res-center .btn {
+    margin: 0 38px 0 65px;
+}
+/*右面*/
+.res .res-right,.pro-main .main-left {
+    width: 168px;
+    overflow: hidden;
+    border: 1px solid #e6e6e6;
+    float: right;
+}
+.res .res-right>P ,.pro-main .main-left>p {
+    font: 12px/30px "Microsoft yahei";
+    text-align: center;
+}
+.res .res-right ul li a ,.pro-main .main-left ul li a {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 8px;
+}
+.res .res-right ul li img ,.pro-main .main-left ul li img {
+    width: 152px;
+    height: 152px;
+    background: #e6e6e6;
+    display: block;
+    margin:  auto;
+    text-align: center;
+}
+.res .res-right ul li span ,.pro-main .main-left ul li span{
+    display: block;
+    width: 130px;
+    height: 26px;
+    padding: 0 10px;
+    font: 16px/26px "Microsoft yahei";
+    background: #dac290;
+    color: #333;
+    position: absolute;
+    bottom: 0px;
+    left: 9px;
+}
+.res .res-right ul li span>b,.pro-main .main-left ul li span>b {
+    display: block;
+    float: right;
+    height: 26px;
+    line-height: 26px;
+    color: #e5121d;
+    font-size: 12px;
+}
+/*商品部分结束*/
+
+/*产品详情部分开始*/
+.pro-main {
+    width: 1200px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+/*左边*/
+.pro-main .main-left {
+    float: left;
+}
+/*右边*/
+.pro-main .main-right {
+    width: 1020px;
+    overflow: hidden;
+    float: right;
+}
+/*标头*/
+.pro-main .main-right .title {
+    width: 1016px;
+    height: 46px;
+    border: 2px solid #e6e6e6;
+}
+.pro-main .main-right .title a {
+    display: block;
+    float: left;
+    width: 156px;
+    height: 46px;
+    font: 16px/46px "Microsoft yahei";
+    color: #333;
+    text-align: center;
+    margin: -2px 0 0 -2px;
+    border: 2px solid #e6e6e6;
+    position: relative;
+}
+.pro-main .main-right .title a>i {
+    color: #e6121d;
+}
+.pro-main .main-right .title .titleOn{
+    background: #c88b10;
+    color: #fff;
+}
+.pro-main .main-right .title a:hover {
+    background: #c88b10;
+    color: #fff;
+}
+/*商品详情*/
+/*文字详情*/
+.pro-main .main-right .page_details {
+    width: 1020px;
+    overflow: hidden;
+    display: block;
+}
+.pro-main .main-right .page_details .text {
+    padding: 30px 98px;
+    border-bottom: 1px solid #e6e6e6;
+    overflow: hidden;
+    margin-bottom: 37px;
+}
+.pro-main .main-right .page_details .text>ul {
+    overflow: hidden;
+    font: 12px/26px "Microsoft yahei";
+    color: #666;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.pro-main .main-right .page_details .text>ul li{
+    width: 25%;
+}
+
+/*图片项*/
+.pro-main .main-right .page_details .details {
+    width: 785px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.pro-main .main-right .page_details .details>img {
+    display: block;
+}
+/*产品详情部分结束*/
+
+/*用户评论部分开始*/
+.pro-main .main-right .page_critic {
+    width: 955px;
+    overflow: hidden;
+    float: right;
+    margin-top: 30px;
+    display: none;
+}
+/*总评分*/
+.pro-main .main-right .page_critic .proSum {
+    width: 115px;
+    overflow: hidden;
+    float: left;
+    text-align: center;
+}
+.pro-main .main-right .page_critic .proSum P {
+    font-size: 12px;
+    color: #333;
+    margin-bottom: 15px;
+}
+.pro-main .main-right .page_critic .proSum span {
+    display: block;
+    font-size: 30px;
+    height: 30px;
+    line-height: 30px;
+    color: #eea615;
+    margin-bottom: 10px;
+}
+.pro-main .main-right .page_critic .proSum b {
+    display: block;
+    font-size: 20px;
+    height: 24px;
+    line-height: 24px;
+    color: #eea615;
+}
+/*选择评论框*/
+.pro-main .main-right .page_critic .tab{
+    width: 674px;
+    padding: 15px 0 15px 40px;
+    float: left;
+    margin-left: 48px;
+    border: 1px solid #cdcdcd;
+}
+.pro-main .main-right .page_critic .tab ul {
+    overflow: hidden;
+}
+.pro-main .main-right .page_critic .tab ul li {
+    float: left;
+}
+.pro-main .main-right .page_critic .tab ul li a {
+    display: block;
+    padding-left: 20px;
+    font-size: 12px;
+    margin-right: 35px;
+    background: url("../img/yuandian02.png") no-repeat left center ;
+}
+.pro-main .main-right .page_critic .tab ul li .on {
+    background-image: url("../img/yuandian01.png");
+}
+/*用户留言评论区*/
+.pro-main .main-right .page_critic>ul {
+    width: 955px;
+    margin-top: 10px;
+    margin-bottom: 12px;
+    overflow: hidden;
+}
+.pro-main .main-right .page_critic>ul li {
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+.pro-main .main-right .page_critic>ul li>span {
+    display: block;
+    width: 115px;
+    height: 48px;
+    float: left;
+    font: 12px/48px "Microsoft yahei";
+    color: #333;
+    text-align: center;
+}
+.pro-main .main-right .page_critic>ul li P {
+    font-size: 12px;
+
+    color: #999;
+    line-height: 24px;
+}
+.pro-main .main-right .page_critic>ul li P>b {
+    display: inline-block;
+    font: 20px/24px "Microsoft yahei";
+    color: #eea615;
+}
+.pro-main .main-right .page_critic>ul li P>span {
+    float: right;
+}
+.pro-main .main-right .page_critic>ul li P>i {
+    display: inline-block;
+    width: 650px;
+    vertical-align: text-top;
+    position: relative;
+    top: -3px;
+    line-height: 24px;
+    color: #333;
+}
+/*下方按钮*/
+.pro-main .main-right .page_critic .btn {
+    width: 538px;
+    overflow: hidden;
+    margin: 0 auto ;
+}
+.pro-main .main-right .page_critic .btn>a {
+    display: block;
+    float: left;
+    width: 58px;
+    height: 22px;
+    text-align: center;
+    color: #999;
+    margin: 0 5px;
+    border: 1px solid #cdcdcd;
+}
+.pro-main .main-right .page_critic .btn>a:hover {
+    color: #fff;
+    background: #eea615;
+}
+.pro-main .main-right .page_critic .btn ul {
+    float: left;
+    overflow: hidden;
+}
+.pro-main .main-right .page_critic .btn ul li {
+    float: left;
+    margin: 0 5px;
+}
+.pro-main .main-right .page_critic .btn ul li a {
+    display: block;
+    width: 22px;
+    height: 22px;
+    text-align: center;
+    color: #666;
+    border: 1px solid #cdcdcd;
+}
+.pro-main .main-right .page_critic .btn ul li a:hover {
+    border-color: #eea615;
+    background: #eea615;
+    color: #fff;
+}
+.pro-main .main-right .page_critic .btn ul li .on {
+    border-color: #eea615;
+    background: #eea615;
+    color: #fff;
+}
+.pro-main .main-right .page_critic .btn span {
+    display: block;
+    float: left;
+    width: 20px;
+    height: 24px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+/*用户评价部分结束*/

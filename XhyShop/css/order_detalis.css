@@ -1,0 +1,173 @@
+/*订单标头*/
+.title {
+    width: 1060px;
+    float: right;
+    margin-top: 30px;
+}
+.title dl {
+    padding: 0 45px;
+    overflow: hidden;
+    float: left;
+    height: 110px;
+    margin-top: 22px;
+    background: url("../img/bd1.png") no-repeat left;
+}
+.title .on{
+    background-image: none;
+}
+.title dl>dt {
+    font-size: 14px;
+    color: #333;
+    line-height: 14px;
+    margin-bottom: 10px;
+}
+.title dl>dd {
+    font-size: 12px;
+    line-height: 20px;
+    color: #666;
+}
+.orderMain {
+    width: 1060px;
+    overflow: hidden;
+    float: right;
+    margin-top: 24px;
+}
+/*标头*/
+.orderMain h5, .title h5 {
+    font-size: 14px;
+    line-height: 14px;
+    color: #333;
+    border-bottom: 1px solid #a3a3a3;
+}
+.orderMain>p {
+    font-size: 12px;
+    line-height: 38px;
+    margin-bottom: 5px;
+}
+/*商品项目分类*/
+.orderMain>p>i {
+    margin-left: 95px;
+    margin-right: 275px;
+}
+.orderMain>p>b {
+    margin-left: 158px;
+    margin-right: 188px;
+}
+.orderMain>p>span {
+    margin-left: 190px;
+}
+/*商品*/
+.orderMain>ul {
+    padding-bottom: 15px;
+    overflow: hidden;
+    border-bottom: 1px solid #a3a3a3;
+}
+.orderMain>ul li {
+    overflow: hidden;
+    margin-top:  30px;
+}
+.orderMain>ul li:first-child {
+    margin-top: 0px;
+}
+.orderMain>ul li>a {
+    display: block;
+    overflow: hidden;
+    float: left;
+}
+.orderMain>ul li a>img {
+    width: 95px;
+    height: 62px;
+    float: left;
+}
+.orderMain>ul li a>p {
+    float: left;
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 22px;
+    width: 206px;
+    color: #333;
+}
+.orderMain>ul li>i {
+    display: block;
+    width: 184px;
+    overflow: hidden;
+    float: left;
+    margin-left: 94px;
+    font-size: 12px;
+    line-height: 62px;
+    color: #333;
+}
+.orderMain>ul li>b {
+    display: block;
+    width: 210px;
+    float: left;
+    overflow: hidden;
+    line-height: 62px;
+    font-size: 12px;
+    color: #333;
+}
+.orderMain>ul li>em {
+    display: block;
+    float: left;
+    overflow: hidden;
+    line-height: 62px;
+    font-size: 12px;
+    color: #e5121d;
+}
+/*购买取消，按钮*/
+.orderMain>ul li>.btns {
+    width: 90px;
+    overflow: hidden;
+    float: right;
+    margin-right: 10px;
+    line-height: 0;
+    margin-bottom: 8px;
+}
+.orderMain>ul li>.btns>button {
+    width: 90px;
+    height: 30px;
+    border: 1px solid #eea615;
+    text-align: center;
+    line-height: 28px;
+    font-size: 12px;
+    color: #666;
+    margin-top: 5px;
+}
+.orderMain>ul li>.btns>button:first-child {
+    margin-top: 0;
+    background: #eea615;
+    color: #fff;
+}
+/*结算栏*/
+.mainText {
+    width: 1180px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.mainText>ul  {
+    width: 250px;
+    overflow: hidden;
+    float: right;
+}
+.mainText>ul li {
+    overflow: hidden;
+    font: 12px/20px "Microsoft yahei";
+}
+.mainText>ul li>i {
+    color: #e5121d;
+}
+.mainText>ul li>b {
+    font-size: 18px;
+    color: #e5121d;
+}
+.mainText>ul li>a {
+    float: right;
+    display: block;
+    margin: 18px 0 8px;
+    width: 90px;
+    height: 30px;
+    background: #eea615;
+    color: #fff;
+    font: 12px/30px "Microsoft yahei";
+    text-align: center;
+}

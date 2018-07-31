@@ -1,0 +1,59 @@
+.lbt {
+    width: 100%;
+    overflow: hidden;
+    overflow: hidden;
+
+}
+.lbt .lbtMain {
+    width: 1920px;
+    overflow: hidden;
+    position: relative;
+    left: 50%;
+    margin-left: -960px;
+}
+.lbt .lbtMain  .lbtBtn{
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    text-align: center;
+    left: 0;
+    bottom: 20px;
+
+}
+.lbt .lbtMain  .lbtBtn span {
+    display: inline-block;
+    margin-right: 20px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    background: url("../img/lbtbtn.png") no-repeat;
+}
+.lbt .lbtMain  .lbtBtn .BtnOn {
+    background: url("../img/lbtbtnon.png") no-repeat;
+}
+
+.lbt .lbtMain .BtnLR {
+    width: 76px;
+    height: 76px;
+    position: absolute;
+    background: url("../img/turnbtn.png") no-repeat;
+    top: 50%;
+    margin-top: -38px;
+    display: none;
+    cursor: pointer;
+}
+.lbt .lbtMain .BtnLeft {
+    left: 15%;
+}
+.lbt .lbtMain .BtnRight {
+    right: 15%;
+    background-position: -90px;
+}
+.lbt .lbtMain ul {
+    width: 5780px;
+    height: 600px;
+    overflow: hidden;
+}
+.lbt .lbtMain ul li {
+    float: left;
+}
